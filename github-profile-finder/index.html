@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Profile Finder</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fab fa-github"></i> GitHub Profile Finder</h1>
+        <input type="text" id="username" class="input" placeholder="Enter GitHub username">
+        <button class="button" onclick="fetchProfile()">Search</button>
+        <div id="profile" class="profile-card" style="display: none;"></div>
+        <p id="error" style="color: red;"></p>
+    </div>
+</body>
+</html>
